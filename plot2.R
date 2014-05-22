@@ -42,4 +42,5 @@ em.Balt <- ddply(NEI.Balt, .(year), summarise, TotalEmissions = sum(Emissions))
 png(filename="./figure/plot2.png",  width= 480, height = 480)
 par(mfrow = c(1, 1), bg="transparent")
 barplot(em.Balt$TotalEmissions, names.arg=em$year, ylab="Emissions (Tons)", main="Total PM2.5 Emissions in Baltimore")
+
 dev.off()

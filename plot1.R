@@ -1,6 +1,6 @@
 # data preparation
 # setting directory
-wd="C:\\Users\\aazhang\\workspace\\R\\Exploratory Data Analysis\\Project 2"
+wd="C:\\Users\\aazhang\\workspace\\R\\EDA Project 2"
 setwd(wd)
 
 Url="https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2FNEI_data.zip"

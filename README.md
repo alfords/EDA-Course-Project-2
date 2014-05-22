@@ -1,12 +1,12 @@
 EDA-Course-Project-2
 ====================
 
-Assignment
+### Assignment
 
 The overall goal of this assignment is to explore the National Emissions Inventory database and see what it say about fine particulate matter pollution in the United states over the 10-year period 1999–2008. You may use any R package you want to support your analysis.
 
 
-Questions
+### Questions
 
 You must address the following questions and tasks in your exploratory analysis. For each question/task you will need to make a single plot. Unless specified, you can use any plotting system in R to make your plot.
 
@@ -23,7 +23,7 @@ How have emissions from motor vehicle sources changed from 1999–2008 in Baltim
 Compare emissions from motor vehicle sources in Baltimore City with emissions from motor vehicle sources in Los Angeles County, California (fips == "06037"). Which city has seen greater changes over time in motor vehicle emissions?
 
 
-Making and Submitting Plots
+### Making and Submitting Plots
 
 Construct the plots as PNG file;
 

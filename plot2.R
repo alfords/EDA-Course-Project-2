@@ -16,11 +16,11 @@ if(!file.exists("./data/FNEI.zip")){
 }
 
 # list of files in zip
-SCCfile  <- "Source_Classification_Code.rds"
+# SCCfile  <- "Source_Classification_Code.rds"
 PM25file <- "summarySCC_PM25.rds"
 
 # unzip and caching the result
-if(!file.exists(paste("./data", SCCfile,  sep="/"))){unzip("./data/FNEI.zip", files=SCCfile,  exdir="./data" )}
+# if(!file.exists(paste("./data", SCCfile,  sep="/"))){unzip("./data/FNEI.zip", files=SCCfile,  exdir="./data" )}
 if(!file.exists(paste("./data", PM25file, sep="/"))){unzip("./data/FNEI.zip", files=PM25file, exdir="./data" )}
 
 
@@ -29,7 +29,7 @@ if(!file.exists(paste("./data", PM25file, sep="/"))){unzip("./data/FNEI.zip", fi
 # Use the base plotting system to make a plot answering this question.
 
 # read files
-SCC  <- readRDS(paste("./data", SCCfile,  sep="/"))
+# SCC  <- readRDS(paste("./data", SCCfile,  sep="/"))
 NEI  <- readRDS(paste("./data", PM25file, sep="/"))
 
 options(scipen=999)   

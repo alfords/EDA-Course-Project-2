@@ -41,6 +41,5 @@ library(ggplot2)
 png(filename="./figure/plot4.png",  width= 480, height = 480)
 print(qplot(year, TotalEmissions, geom=c("line"), data=em.Coal, 
       main= "Total PM2.5 emissions related to Coal combustion in USA", ylab="Total Emissions (Tons)"))
-      #+theme_bw()
       
 dev.off()

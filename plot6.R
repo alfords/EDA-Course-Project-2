@@ -31,7 +31,9 @@ if(!file.exists(paste("./data", PM25file, sep="/"))){unzip("./data/FNEI.zip", fi
 # read files
 SCC  <- readRDS(paste("./data", SCCfile,  sep="/"))
 NEI  <- readRDS(paste("./data", PM25file, sep="/"))
+
 SCC.MV <- SCC[grep("On-Road", SCC$EI.Sector), ]
+
 NEI.Balt.LA <- NEI[NEI$fips=="24510" | NEI$fips=="06037",]
 NEI.MV.Balt.LA <- merge(NEI.Balt.LA,SCC.MV)
 
